@@ -47,6 +47,7 @@ wp-content/advanced-cache.php
 wp-content/object-cache.php
 
 # Plugins de terceros (se reinstalan desde el repositorio de WP)
+wp-content/plugins/all-in-one-wp-migration/
 wp-content/plugins/astra-sites/
 wp-content/plugins/hostinger/
 wp-content/plugins/hostinger-easy-onboarding/

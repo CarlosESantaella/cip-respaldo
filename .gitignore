@@ -1,0 +1,77 @@
+# --- Credenciales y configuración sensible ---
+wp-config.php
+.htaccess
+.htaccess.bk
+.private/
+
+# --- Respaldos (van a Google Drive, no a Git) ---
+*.sql
+*.sql.gz
+*.zip
+*.wpress
+*.tar
+*.tar.gz
+*.7z
+cip-wordpress-backup-*.*
+backup-*.zip
+
+# --- Núcleo de WordPress (se reinstala desde wordpress.org) ---
+/wp-admin/
+/wp-includes/
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
+/default.php
+
+# --- wp-content: solo conservar lo propio ---
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/litespeed/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Plugins de terceros (se reinstalan desde el repositorio de WP)
+wp-content/plugins/astra-sites/
+wp-content/plugins/hostinger/
+wp-content/plugins/hostinger-easy-onboarding/
+wp-content/plugins/hostinger-reach/
+wp-content/plugins/litespeed-cache/
+wp-content/plugins/sureforms/
+wp-content/plugins/suremails/
+wp-content/plugins/surerank/
+wp-content/plugins/ultimate-addons-for-gutenberg/
+wp-content/plugins/wp-live-chat-support/
+
+# Temas por defecto de WP (se reinstalan)
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyfive/
+
+# --- Sistema operativo / editores ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.log
+node_modules/
